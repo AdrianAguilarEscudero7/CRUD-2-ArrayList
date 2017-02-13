@@ -57,7 +57,7 @@ public class CRUDvArrayList {
           System.out.println("\n¡Hasta pronto!\n");
         break;
         default:
-          System.out.println("\nLo siento ha introducido una opción no válida.\n");
+          System.out.println("\nLo siento, ha introducido una opción no válida.\n");
       }
     } while (opcionMenu != 5);
   }
@@ -156,7 +156,7 @@ public class CRUDvArrayList {
         System.out.println();
       }
       if ((i == t.size()-1) && (!salir)) {
-        System.out.println("\nLo siento, el código introducido no existe.\n");
+        System.out.println("\nLo siento, el ID introducido no existe.\n");
       }
     }
   }
@@ -181,7 +181,7 @@ public class CRUDvArrayList {
         System.out.println("\n¡Artículo eliminado correctamente!.\n");
       }
       if ((i == t.size()-1) && (!salir)) {
-        System.out.println("\nLo siento, el código introducido no existe.\n");
+        System.out.println("\nLo siento, el ID introducido no existe.\n");
       }
     }
   }
